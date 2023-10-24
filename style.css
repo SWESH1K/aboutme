@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1000;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+header a:hover{
+    color: cyan;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 800;
+    color: #E0FFFF;
+    text-shadow: 1px 1px 8px cyan;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.content{
+    position:absolute;
+    display: block;
+    width: 550px;
+    top: 150px;
+    left: 200px;
+}
+
+.content h1{
+    font-size: 64px;
+    color: #E0FFFF;
+    padding: 5px;
+    text-shadow: 1px 1px 8px cyan;
+}
+.content h2{
+    font-size: 52px;
+    text-shadow: 1px 1px 4px #E0FFFF;
+    color: cyan;
+}
+.content h3{
+    font-size: 32px;
+    /*color: #8B8B8B;*/
+    color: rgba(214,32,78,80%);
+    text-shadow: 1px 1px 4px red;
+    padding-bottom: 10px;
+}
+.content p{
+    font-size: 20px;
+    font-style: italic;
+    color: 	#F4F5FA;
+    padding-bottom: 40px;
+}
+
+.links button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10%;
+    font-size: 24px;
+    font-weight: bold;
+    border: 3px solid cyan;
+    background: transparent;
+    color: cyan;
+    cursor: pointer;
+    margin-right: 40px;
+    box-shadow: 4px 4px 16px black;
+    transition: all 0.3s;
+}
+.links button:hover{
+    background-color: cyan;
+}
+.links button:hover a{
+    color: black;
+}
+
+.links a{
+        text-decoration: none;
+        color: cyan;
+}
